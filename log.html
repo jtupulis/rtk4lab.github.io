@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RTK4 | Lab Log</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .log-entry { border-left: 2px solid var(--forest-green); padding-left: 20px; margin-bottom: 40px; }
+        .log-date { font-family: monospace; color: var(--forest-green); font-size: 0.9rem; }
+        .log-tag { display: inline-block; background: #222; padding: 2px 8px; border-radius: 4px; font-size: 0.7rem; margin-right: 5px; border: 1px solid #444; }
+    </style>
+</head>
+<body style="background: #000; color: #fff; max-width: 800px; margin: 0 auto; padding: 20px;">
+
+    <header style="padding: 20px 0; border-bottom: 1px solid var(--forest-green); display: flex; justify-content: space-between; align-items: center; margin-bottom: 40px;">
+        <div style="font-weight: bold; font-size: 1.2rem;">RTK4 <span style="color: var(--forest-green);">LOG</span></div>
+        <nav><a href="index.html" style="color: #fff; text-decoration: none;">← Back to Artifacts</a></nav>
+    </header>
+
+    <div id="log-container">Loading log entries...</div>
+
+    <script>
+        async function loadLog() {
+            try {
+                const response = await fetch('log.csv');
+                const data = await response.text();
+                const rows = data.split('\n').slice(1); // Skip header row
+                const container = document.getElementById('log-container');
+                container.innerHTML = ''; // Clear loading text
+
+                rows.forEach(row => {
+                    if (row.trim() === '') return;
+                    const [date, tags, title, content] = row.split(';');
+                    
+                    const tagHtml = tags.split(',').map(t => `<span class="log-tag">${t}</span>`).join('');
+                    
+                    const entryHtml = `
+                        <div class="log-entry">
+                            <div class="log-date">${date}</div>
+                            <div>${tagHtml}</div>
+                            <h2 style="margin-top: 10px;">${title}</h2>
+                            <p>${content}</p>
+                        </div>
+                    `;
+                    container.innerHTML += entryHtml;
+                });
+            } catch (error) {
+                document.getElementById('log-container').innerHTML = 'Error loading logs.';
+            }
+        }
+        loadLog();
+    </script>
+</body>
+</html>
