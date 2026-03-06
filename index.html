@@ -134,5 +134,30 @@
         fetchLatestStatus();
     </script>
 
+    <div id="cookie-banner">
+        <p style="margin-top: 0;"><strong>Calibration Consent:</strong> RTK4 Lab uses anonymous cookies to monitor site performance. Do you accept this telemetry?</p>
+        <div style="display: flex; justify-content: flex-end;">
+            <button class="cookie-btn accept-btn" onclick="acceptCookies()">ACCEPT</button>
+            <button class="cookie-btn deny-btn" onclick="denyCookies()">DECLINE</button>
+        </div>
+    </div>
+    
+    <script>
+        if (!localStorage.getItem('rtk4_consent')) {
+            document.getElementById('cookie-banner').style.display = 'block';
+        }
+    
+        function acceptCookies() {
+            localStorage.setItem('rtk4_consent', 'granted');
+            gtag('consent', 'update', { 'analytics_storage': 'granted' });
+            document.getElementById('cookie-banner').style.display = 'none';
+        }
+    
+        function denyCookies() {
+            localStorage.setItem('rtk4_consent', 'denied');
+            document.getElementById('cookie-banner').style.display = 'none';
+        }
+    </script>    
+    
 </body>
 </html>
