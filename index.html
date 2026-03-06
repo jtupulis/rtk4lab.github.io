@@ -4,23 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SIA RTK4 | Systems R&D Lab</title>
+    <meta property="og:title" content="RTK4 | Systems R&D Lab">
+    <meta property="og:description" content="Architecting high-precision IoT and GNSS assets for industrial forestry.">
+    <meta property="og:image" content="https://rtk4.lv/ChargdCubeWinner.jpeg">
+    <meta property="og:url" content="https://rtk4.lv">
+    <meta name="twitter:card" content="summary_large_image">
+    
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;600&display=swap" rel="stylesheet">
     <style>
         :root { --forest-green: #228B22; --dark-bg: #0a0a0a; --text-light: #e0e0e0; }
         body { margin: 0; font-family: 'Exo 2', sans-serif; background: var(--dark-bg); color: var(--text-light); line-height: 1.6; }
-        .hero { height: 80vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('hero-cube.jpg'); background-size: cover; background-position: center; border-bottom: 2px solid var(--forest-green); }
+        .hero { height: 80vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('ChargdCubeWinner.jpeg'); background-size: cover; background-position: center; border-bottom: 2px solid var(--forest-green); }
         h1 { font-size: 3.5rem; letter-spacing: 0.2rem; color: var(--forest-green); margin-bottom: 0; }
-        .tagline { font-size: 1.2rem; max-width: 600px; margin: 20px auto; opacity: 0.8; }
-        .section { padding: 80px 20px; max-width: 900px; margin: 0 auto; }
+        .tagline { font-size: 1.2rem; max-width: 600px; margin: 20px auto; opacity: 0.8; padding: 0 20px; }
+        .section { padding: 40px 20px; max-width: 900px; margin: 0 auto; }
         .artifact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 40px; }
-        .artifact-card { border: 1px solid #333; padding: 25px; border-radius: 4px; transition: border-color 0.3s; }
+        .artifact-card { border: 1px solid #333; padding: 25px; border-radius: 4px; transition: border-color 0.3s; background: #0f0f0f; }
         .artifact-card:hover { border-color: var(--forest-green); }
-        .status-ticker { background: #1a1a1a; padding: 10px; font-size: 0.9rem; border-left: 4px solid var(--forest-green); margin-bottom: 40px; }
-        .contact { text-align: center; padding: 60px; background: #0f0f0f; }
+        
+        /* Updated Status Bar to be a Link */
+        .status-ticker { background: #1a1a1a; padding: 15px; font-size: 0.9rem; border-left: 4px solid var(--forest-green); margin-bottom: 40px; display: block; text-decoration: none; color: inherit; transition: background 0.2s; }
+        .status-ticker:hover { background: #222; }
+        
+        .contact { text-align: center; padding: 60px; background: #0f0f0f; border-top: 1px solid #222; }
         a { color: var(--forest-green); text-decoration: none; font-weight: 600; }
+        nav { position: absolute; top: 20px; right: 20px; }
+        nav a { color: #fff; margin-left: 20px; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; }
     </style>
 </head>
 <body>
+
+    <nav>
+        <a href="index.html">Artifacts</a>
+        <a href="log.html" style="border: 1px solid var(--forest-green); padding: 5px 15px; border-radius: 4px;">Lab Log</a>
+    </nav>
 
     <header class="hero">
         <img src="rtk4logo.png" alt="SIA RTK4 Logo" style="height: 120px; width: auto; margin-bottom: 20px; filter: drop-shadow(0px 4px 8px rgba(0,0,0,0.5));">
@@ -28,13 +45,62 @@
     </header>
 
     <main class="section">
-        <div class="status-ticker">
-            <strong>LAB STATUS:</strong> Currently validating BME280/ESP32 logic via TuyaLink MQTT (Central Europe).
-        </div>
+        <a href="log.html" id="live-status" class="status-ticker">
+            <strong>LAB STATUS:</strong> Loading latest entry...
+        </a>
 
         <h2>Artifacts, Assets & R&D</h2>
         <div class="artifact-grid">
             <div class="artifact-card">
+                <img src="ChargdCubeWinner.jpeg" alt="Charging complexity" style="width: 100%; border-radius: 4px; border: 1px solid var(--forest-green);">
+                <h3>00: The Logical Anchor</h3>
+                <p>A "charged" Rubik's cube used as a calibration artifact for spatial logic and mental liveliness. Proof that complex systems are solvable one layer at a time.</p>
+            </div>
+            
+            <div class="artifact-card">
+                <img src="AtmosphericPressure.jpeg" alt="Atmospheric Sensor" style="width: 100%; border-radius: 4px; margin-bottom: 15px;">
+                <h3>01: Atmospheric Precision</h3>
+                <p>Industrial-grade barometric sensing using Bosch BME280/ESP32 architecture. Specialized for niche prosumer and industrial environmental monitoring.</p>
+            </div>
+
+            <div class="artifact-card">
+                <img src="GNSSprototype.jpeg" alt="GNSS Prototype" style="width: 100%; border-radius: 4px; margin-bottom: 15px;">
+                <h3>02: cm level precision GNSS</h3>
+                <p>Developing high-precision geospatial assets tailored for forestry and autonomous infrastructure mapping.</p>
+            </div>
+        </div>
+
+        <div style="margin-top: 60px;">
+            <h2>The RTK4 Logic</h2>
+            <p>We bridge the gap between complex software logic and high-precision physical hardware. With 20+ years of ICT experience, we build Intellectual Property (IP) designed for licensing in the B2B and B2B2C markets.</p>
+        </div>
+    </main>
+
+    <footer class="contact">
+        <p>Contact the Lab: <a href="mailto:jtu@rtk4.lv">jtu@rtk4.lv</a></p>
+        <p><a href="https://www.linkedin.com/in/janistupulis">LinkedIn Profile</a></p>
+    </footer>
+
+    <script>
+        async function fetchLatestStatus() {
+            try {
+                const response = await fetch('log.csv');
+                const data = await response.text();
+                const rows = data.split('\n').filter(r => r.trim() !== '');
+                if (rows.length > 1) {
+                    const latest = rows[1].split(';'); // rows[0] is header, rows[1] is newest entry
+                    document.getElementById('live-status').innerHTML = 
+                        `<strong>LATEST LOG [${latest[0]}]:</strong> ${latest[2]} — <em>Click to read more</em>`;
+                }
+            } catch (e) {
+                document.getElementById('live-status').innerHTML = "<strong>LAB STATUS:</strong> Active. Check the full log for details.";
+            }
+        }
+        fetchLatestStatus();
+    </script>
+
+</body>
+</html>            <div class="artifact-card">
                 <img src="ChargdCubeWinner.jpeg" alt="Charging complexity" style="width: 100%; border-radius: 4px; border: 1px solid var(--forest-green);">
                 <h3>00: The Logical Anchor</h3>
                 <p>A "charged" Rubik's cube used as a calibration artifact for spatial logic and mental liveliness. Proof that complex systems are solvable one layer at a time.</p>
