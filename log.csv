@@ -1,7 +1,8 @@
 Date;Tags;Title;Content
-2026-03-09;HEALTH,IOT,ANALYTICS;Systems Audit & Infrastructure Handshake;Linked Smart Life to Tuya Cloud Project. Resolved GA4 path-title collisions.
+2026-03-10;BME280/ESP32,TUYA;HW:OK;MQTT:Active;Cloud:Unbound_Gateway_Error
+2026-03-09;IOT,ANALYTICS;Systems Audit & Infrastructure Handshake;Linked Smart Life to Tuya Cloud Project. Resolved GA4 path-title collisions.
 2026-03-08;FUN,ELECTRONICS,TROUBLESHOOTING;Weekend fun 🙂;Troubleshooting a failed Mac charger.
 2026-03-06;SITE_LAUNCH,INFRA;System Online: Timber and TLS;Morning started with physical logistics at -4°C. Transitioned to digital environment at 09:00. TLS active for rtk4.lv.
 2026-03-05;SITE_AUDIT,ECOSYSTEM;Icebreakers'26 Site Audit;Microchip session: secured contacts. Health Room: cancelled. Found the thermos.
 2026-03-04;BRANDING,LOGIC;Calibration of the Logical Anchor;Captured "Charged Cube" hero shot. Green-White-Orange palette aligned with Forestry safety standards.
-2026-03-03;ENGINEERING;BMP280/ESP32 alive, struggle with Tuya developer portal;Enjoyed the simplicity and logic of BMP280/ESP32. Tuya developer portal is non-intuitive and slow.
+2026-03-03;BME280/ESP32,TUYA;BME280/ESP32 alive, struggle with Tuya developer portal;Enjoyed the simplicity and logic of BMP280/ESP32. Tuya developer portal is non-intuitive and slow.
