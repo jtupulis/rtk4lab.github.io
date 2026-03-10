@@ -1,5 +1,5 @@
 Date;Tags;Title;Content
-2026-03-10;BME280/ESP32,TUYA;HW:OK;MQTT:Active;Cloud:Unbound_Gateway_Error
+2026-03-10;BME280/ESP32,TUYA;HW:OK,MQTT:Active;Cloud:Unbound_Gateway_Error
 2026-03-09;IOT,ANALYTICS;Systems Audit & Infrastructure Handshake;Linked Smart Life to Tuya Cloud Project. Resolved GA4 path-title collisions.
 2026-03-08;FUN,ELECTRONICS,TROUBLESHOOTING;Weekend fun 🙂;Troubleshooting a failed Mac charger.
 2026-03-06;SITE_LAUNCH,INFRA;System Online: Timber and TLS;Morning started with physical logistics at -4°C. Transitioned to digital environment at 09:00. TLS active for rtk4.lv.
