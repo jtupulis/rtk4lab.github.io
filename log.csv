@@ -1,4 +1,5 @@
 Date;Tags;Title;Content
+2026-03-12;MARKETING,BME280/ESP32;Website update,Tuya Developer Portal;Added LoRa Trap prototype to the website. Tuya Developer Portal is a nightmare for me. Made some progress though.
 2026-03-11;PLANNING;System_Audit:Reminders;Revisited the Lab Roadmap
 2026-03-10;BME280/ESP32,TUYA;HW:OK,MQTT:Active;Cloud:Unbound_Gateway_Error
 2026-03-09;IOT,ANALYTICS;Systems Audit & Infrastructure Handshake;Linked Smart Life to Tuya Cloud Project. Resolved GA4 path-title collisions.
