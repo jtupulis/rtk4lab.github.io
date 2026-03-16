@@ -1,4 +1,6 @@
 Date;Tags;Title;Content
+2026-03-16;PLANNING,AI;AI struggle;Continuous chats fail to remember things. Moving to AI assistants. Creating Google Gemini Gem.
+2026-03-15;FUN,ELECTRONICS,LORATRAP,FIELD TEST;Weekend fun 🙂;LoRa Trap field tests: 10, 30, 500m ok, 1000m ok with raised antenna, 2km fail. Good data, rethinking tech and test setting now.
 2026-03-13;BME280/ESP32,TUYA;Firmware Update,Cloud Migration,Tuya Link EU;Implemented HMAC-SHA256 signature for secure MQTT handshaking. Successfully migrated telemetry stack to Central Europe Data Center. Telemetry alive.
 2026-03-12;MARKETING,BME280/ESP32;Website update,Tuya Developer Portal;Added LoRa Trap prototype to the website. Tuya Developer Portal is a nightmare for me. Made some progress though.
 2026-03-11;PLANNING;System_Audit:Reminders;Revisited the Lab Roadmap.
