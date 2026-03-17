@@ -1,4 +1,5 @@
 Date;Tags;Title;Content
+2026-03-17;BME280/ESP32,TUYA,POC;Full Stack Success;Successfully completed the end-to-end Proof of Concept for the BME280 Tuya sensor. Real-time telemetry (Temp, Hum, Pres) is now live in the mobile app. Resolved identifier mapping and cloud-to-app binding hurdles.
 2026-03-16;PLANNING,AI;AI struggle;Continuous chats fail to remember things. Moving to AI assistants. Creating Google Gemini Gem.
 2026-03-15;FUN,ELECTRONICS,LORATRAP,FIELD TEST;Weekend fun 🙂;LoRa Trap field tests: 10, 30, 500m ok, 1000m ok with raised antenna, 2km fail. Good data, rethinking tech and test setting now.
 2026-03-13;BME280/ESP32,TUYA;Firmware Update,Cloud Migration,Tuya Link EU;Implemented HMAC-SHA256 signature for secure MQTT handshaking. Successfully migrated telemetry stack to Central Europe Data Center. Telemetry alive.
