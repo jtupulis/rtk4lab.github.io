@@ -1,4 +1,6 @@
 Date;Tags;Title;Content
+2026-03-19;MARKETING,NETWORKING;Branding & planning;Updated profiles.,Completed planning of TechChill 2026 sessions. Sent out a few invites.
+2026-03-18;TECHCHILL,LOGISTICS,STRATEGY;TechChill roadmap & Asset definition;Cleared outstanding logistical hurdles for lab maintenance. Commenced strategic planning for TechChill 2026.
 2026-03-17;BME280/ESP32,TUYA,POC;Full Stack Success;Successfully completed the end-to-end Proof of Concept for the BME280 Tuya sensor. Real-time telemetry (Temp, Hum, Pres) is now live in the mobile app. Resolved identifier mapping and cloud-to-app binding hurdles.
 2026-03-16;PLANNING,AI;AI struggle;Continuous chats fail to remember things. Moving to AI assistants. Creating Google Gemini Gem.
 2026-03-15;FUN,ELECTRONICS,LORATRAP,FIELD TEST;Weekend fun 🙂;LoRa Trap field tests: 10, 30, 500m ok, 1000m ok with raised antenna, 2km fail. Good data, rethinking tech and test setting now.
