@@ -1,5 +1,5 @@
 Date;Tags;Title;Content
-2026-03-23;BME280/ESP32,TUYA,TROUBLESHOOTING;Firmware Architecture, Coding, Hardware Pivot & learning to code with AI;Finalized BME280 firmware architecture. Worked on Firmware modularity. Changed to ESP32-WROOM-32 following power/WiFi instability on the ESP32-C3. AI is forgetting instructions...
+2026-03-23;BME280/ESP32,TROUBLESHOOTING;Firmware Architecture, Coding, Hardware Pivot & learning to code with AI;Finalized BME280 firmware architecture. Worked on Firmware modularity. Changed to ESP32-WROOM-32 following power/WiFi instability on the ESP32-C3. AI is forgetting instructions...
 2026-03-20;NULL;Out of Lab;
 2026-03-19;MARKETING,NETWORKING;Branding & planning;Updated profiles. Completed planning of TechChill 2026 sessions. Sent out a few invites.
 2026-03-18;TECHCHILL,LOGISTICS,STRATEGY;TechChill roadmap & Asset definition;Cleared outstanding logistical hurdles for lab maintenance. Commenced planning for TechChill 2026.
