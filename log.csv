@@ -1,5 +1,5 @@
 Date;Tags;Title;Content
-2026-03-26;NETWORKING,STRATEGY;TechChill Day 2: Signal Filtering;A session on defence/dual-use. Approached Austrians to discuss rtk4forestry, but didn't land a meeting yet.
+2026-03-26;NETWORKING,STRATEGY;TechChill Day 2: Signal Filtering;A session on defence/dual-use. Approached Austrians to discuss rtk4forestry. Final meeting with Google.
 2026-03-25;NETWORKING,STRATEGY;TechChill Day 1: International Markets;How war change startup world - interesting. Got contact with the Embassy of Canada (to explore LoRa Trap (TRL 5) applications). Found SBQuantum quantuum magnetometry tech for potential GNSS-denied environmental sensors. Nitrogen denied diamonds + lasers > precision.
 2026-03-24;STRATEGY,NETWORKING,MAINTENANCE;TechChill Readiness & Strategic Alignment;Consulted with LATA leadership. Finalized TRL and "IP Teaser" assets for TechChill networking. Performed hardware maintenance, oi, it was simple axe sharpening :D
 2026-03-23;BME280/ESP32,TROUBLESHOOTING;Firmware Architecture, Coding, Hardware Pivot & learning to code with AI;Finalized BME280 firmware architecture. Worked on Firmware modularity. Changed to ESP32-WROOM-32 following power/WiFi instability on the ESP32-C3. AI is forgetting instructions...
