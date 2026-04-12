@@ -1,4 +1,7 @@
 Date;Tags;Title;Content
+2026-04-11;FUN,LORATRAP,DEAD MILE;Weekend fun 🙂;The mile was not dead. I carried a big beaver on my shoulders through (beaver infested, swampy) forest at night. A good validation for LoRa Trap logistics usecase - I still feel it throughout my body :D
+2026-04-10;ROADMAP;EIC Pre-accelerator Alignment and IP Strategy;Evaluated EIC Pre-accelerator opportunities for the 2027 window. Thinking of DFM (Design for Manufacturing) learning cycle for the BME280/ESP32 asset to validate the complete IP package, including firmware and enclosure logic.
+2026-04-09;ARCHITECTURE,SECURITY,IoT;Hardening the Modular Sensor Framework;Security strategy defined for BME280/ESP32 and LoRa Trap projects.
 2026-04-08;NETWORKING; TechChill Follow-ups; Finalized TechChill Follow-ups Finally. Time flies...
 2026-04-07;MARKETING,STRATEGY;Asset Documentation & Stakeholder Engagement;Finalized rtk4 "Offline Sensing" assets deck. Did outreach to a few people I met at TechChill.
 2026-04-02;NETWORKING;TechChill follow-up;Did some of TechChill follow-ups. That triggered a bit of market and legal research. Need new pitch deck.
