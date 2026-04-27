@@ -1,4 +1,5 @@
 Date;Tags;Title;Content
+2026-04-23;DEEPTECH;Quantum magentometrics;Did some reading on quantum magentometrics for geolocation.
 2026-04-23;ARCHITECTURE,INFRA,BME280;rtk4 Standards & Antigravity IDE Integration;Codified rtk4 Manifest and BME280 Project Architecture principles and features, including tiered security protocols for use in development using Antigravity IDE. Configured Antigravity MCP hardware bridges and optimized PIO deployment workflows. Audited firmware for compliance. Did a little actual development.
 2026-04-22;NULL;Out of Lab;
 2026-04-21;NULL;Out of Lab;
