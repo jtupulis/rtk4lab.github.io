@@ -1,4 +1,5 @@
 Date;Tags;Title;Content
+2026-05-11;DEVELOPMENT,BME280/ESP32,TUYA;Architecture, Tuya Developer Portal again;Investigated architecture choices mixed with Tuya Developer Portal nightmare as it limits those choices significantly.
 2026-05-10;DEVELOPMENT,INFRA,BME280/ESP32;Cleanup;Cleanup complete. Did actual development: introduced polymorphic signal_strength to push RSSI, SNR, LQI depending on the transport.
 2026-05-09;DEVELOPMENT,INFRA,BME280/ESP32;Cleanup;Cleanup still...
 2026-05-08;DEVELOPMENT,INFRA,BME280/ESP32;Cleanup;Did more cleanup of codebase and IDE after the refactoring. IntelliSense is not making it (the sense). Moved from Apple's clangd to esp-clang. Better, but still mysterios "problems".
