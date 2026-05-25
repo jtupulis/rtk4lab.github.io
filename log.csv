@@ -1,4 +1,5 @@
 Date;Tags;Title;Content
+2026-05-25;DEVELOPMENT,BME280/ESP32;Tuya Zigbee works;Got node_zigbee_tuya sending data to Tuya cloud and it recognizing the data. Success. A few more firmware improvements ahead.
 2026-05-22;ACCOUNTING,DEVELOPMENT,BME280/ESP32;Populated YTD accounting data & BME280/ESP32 development;Populated YTD accounting data. Did some development BME280/ESP32: tried to implement Tuya Zigbee transport and logic. No success: ESP32 panics because number of reasons.
 2026-05-21;INFRA,ACCOUNTING;Google Gemini limits exploration & m1>m2 Max & rtk4 tax regime and accounting;Got email from gooble about new limits in Gemini usage. Spent some time understanding that. New Mac: installed Adobe Acrobat, eParakstītājs. Fixed the backlog. Investigated how to get rtk4 on VAT register. Set up simple spreadsheet double-record accounting.
 2026-05-20;INFRA;m1>m2 Max: Antigravity;Antigravity now is agent orchestrator. Antigravity IDE now is what Antigravity was. Got problems logging in, fixed.
