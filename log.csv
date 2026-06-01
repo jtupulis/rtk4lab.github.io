@@ -1,5 +1,6 @@
 Date;Tags;Title;Content
-2026-05-29;MARKETING;BalticGIT prep;Created presentation outline
+2026-06-01;MARKETING;BalticGIT prep;Finalized presentation, sent tyo organizers.
+2026-05-29;MARKETING;BalticGIT prep;Created presentation outline.
 2026-05-28;REPORTING,TAX;Annual Report & VAT Register reinstatement;Prepared and submitted the Annual Report to SRS. Prepared legal basis, docs and submitted application for reinstating rtk4 to VAT Register.
 2026-05-27;DEVELOPMENT,MARKETING;BME280/ESP32 BOM & BalticGIT prep;Initiated BME280/ESP32 BOM, some surprises. Pivoted to two sensor architecture: I2C T&H and SPI barometric. Defined scope of my BalticGIT presentation.
 2026-05-26;INFRA;DVELOPMENT;m1>m2 Max: KiCad & BME280/ESP32;Installed KiCad v10. Investigated AI supported electronics design options. Stopped on KiCAD-MCP-Server. Installed Node.js, Cline extension in Visual Studio Code, connected Gemini via API. Prepared BME280/ESP32 project for HW development: created directory tree template for electronics projects, implemented it for BME280/ESP32.
