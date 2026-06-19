@@ -1,9 +1,9 @@
 Date;Tags;Title;Content
-2026-06-19;INFRA,ROADMAP,ACCOUNTING;Dell U2725QE, Meeting at EDI, Accounting automation;Updated firmware on the Dell U2725QE. Met Integrated circuits and systems laboratory guys at EDI. Learned about their work. Discussed their quantum magnetometry research. Montly accounting routine automation.
+2026-06-19;INFRA,ROADMAP,ACCOUNTING;Dell U2725QE, Meeting at EDI, Accounting automation;Updated firmware on the Dell U2725QE. Met Integrated circuits and systems laboratory guys at EDI. Learned about their work. Discussed their quantum magnetometry research. Monthly accounting routine automation.
 2026-06-18;INFRA,ACCOUNTING;Dell U2725QE, Accountiong routine for Aliexpress purchasing;Investigated Dell U2725QE issues. Firmware update incoming. Investigated accountiong routine for Aliexpress purchasing.
-2026-06-17;DEVELOPMENT,PURCHASING;ESP32Voice, Sourcing platforms;Defined mini-project - ESP32 based voice recognition module. Built BOM. Investigated Aliexpress parts, components, modules, materials ourcing platforms alternatives (LCSC, eBay, etc). Stayed with Aliexpress for experiments materials.
+2026-06-17;DEVELOPMENT,PURCHASING;ESP32Voice, Sourcing platforms;Defined mini-project - ESP32 based voice recognition module. Built BOM for POC for it. Investigated Aliexpress parts, components, modules, materials sourcing platforms alternatives (LCSC, eBay, etc). Stayed with Aliexpress for materials for experiments and POCs.
 2026-06-16;INFRA;Google Calendar;Tried to set up Google Calendar sharing between accounts, no success.
-2026-06-15;INFRA,MARKETING;Dell U2725QE, AIConnect;Set up the new Dell U2725QE. Prepared and submitted rtk4 presentation for aiconnect.lv conference. Will share my journey of setting up a biutique electronics lab business using AI.
+2026-06-15;INFRA,MARKETING;Dell U2725QE, AIConnect;Set up the new Dell U2725QE. Prepared and submitted rtk4 presentation for aiconnect.lv conference. Will share my journey of setting up a boutique electronics lab business using AI.
 2026-06-12;INFRA;routerOS;Network implementation. Took more time than I expected. Gemini AI seems to be pretty good with routerOS advice.
 2026-06-11;INFRA;routerOS;Network implementation.
 2026-06-10;INFRA;routerOS, rtk4 network architecture and topology & Amazon Business;Did prep for setting up Mikrotik hEX. Set up Amazon Business and ordered Dell UltraSharp U2725QE to replace my Apple Thunderbolt workhorese of 10+ years.
