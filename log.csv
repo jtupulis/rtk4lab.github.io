@@ -1,14 +1,17 @@
 Date;Tags;Title;Content
-2026-07-14;
-2026-07-13;
-2026-07-10;
-2026-07-09;
-2026-07-08;
-2026-07-07;
-2026-07-06;
-2026-07-03;
-2026-07-02;
-2026-07-01;
+2026-07-15;ACCOUNTING,AI;Beancount cleanup & AI workflows;Renumbered inventory and bank fee accounts in Beancount. Worked on AI workflows: moved my main Gemini Business development Gem to agentic antigravity-cli environment.
+2026-07-14;INFRA,OPENHAB,ACCOUNTING,TAX;openHAB connection & VID VAT correction;Trouble with openHAB local connection. Captured packets on RouterOS Mikrotik. Submitted corrected June VAT declaration to VID.
+2026-07-13;DEVELOPMENT,INFRA;ESP32-C6 profiling & RouterOS troubleshooting;Selected Bosch BMP585 and TI HDC3022 sensors. Calculated power profiles for ESP32-C6 (WiFi vs Zigbee). Fixed RouterOS DNS cache issues on Mikrotik hEX s.
+2026-07-12;INFRA,DEVELOPMENT;iCloud sync & battery evaluation;Looked into Saft LS33600CNA battery. Configured symbolic links to sync rtk4 folder to iCloud Drive.
+2026-07-11;ACCOUNTING,DEVELOPMENT;Plain-Text Accounting setup;Set up Beancount and Fava. Wrote Python scripts to import historical data. Developed a custom Fava extension for suppliers prototype.
+2026-07-10;ACCOUNTING;Plain-Text Accounting vs ERP systems;Evaluated Beancount vs ERPNext and Odoo for company accounting.
+2026-07-09;INFRA,ACCOUNTING,TAX;Ubuntu Server & June closing;Moved lab ubuntu server to its bench, configured split-horizon DNS in RouterOS. Did June accounting closing in pats.lv and prepared VAT numbers for VID.
+2026-07-08;INFRA,DEVELOPMENT,PROCUREMENT;Ubuntu Server & ESP32Voice;Installed Ubuntu Server on a Mac with a broken screen. Wired ESP32-S3 voice satellite for Willow. Looked into new EU import rules.
+2026-07-07;INFRA,DEVELOPMENT;UPS maintenance & lab load calculations;Replaced battery in BX950UI UPS. Mapped out lab power loads. Worked on custom ESP32-S3 microphone board wiring (Willow based ESP32Voice mini-project).
+2026-07-06;NULL;Out of Lab;
+2026-07-03;AI,ACCOUNTING;Odometer OCR parsing & AliExpress receipts;Processed AliExpress receipts and bank statements into unified ledger. Improved OCR script for dark dashboard photos.
+2026-07-02;AI,ACCOUNTING;Local OCR tool & tax compliance;Wrote a Swift script to do local OCR on odometer photos. Figured out tax compliance rules for missing fuel receipts.
+2026-07-01;AI,REFLECTION;Local model transition;Tried local model qwen2.5-coder:14b for chat history analysis. Refined classifier prompt rules.
 2026-06-30;REFLECTION;AI chat history analysis;Continued on AI chat history analysis for reflection.
 2026-06-29;REFLECTION,AI;AI chat history analysis & AI workflow building;Installed Ollama and tried offline models for Gemini chat history analysis for reflection. Revisited my Gemini Gems and AI workflows.
 2026-06-28;VACATION;Vacation ends;Good times.
