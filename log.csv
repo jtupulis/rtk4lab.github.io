@@ -1,4 +1,32 @@
 Date;Tags;Title;Content
+2026-08-17;MARKETING,RTK4LOGISTICS;Lab Log recovery, base power solution;Recovered Lab Log for last 4 weeks. Base power solution upgrade research. Need stable 18650 LiIon battery charging and simultaneous external power delivery.
+2026-08-16;RTK4LOGISTICS,TROUBLESHOOTING;Base station power troubleshooting;Troubleshot Sparkfun RTK-SMA board battery voltage drop. Diagnosed battery charge/pass-through issues with the Anker power bank.
+2026-08-14;NULL;Out of Lab;
+2026-08-13;RTK4LOGISTICS,FUN,ELECTRONICS;Automower recovery & CPU test;Troubleshot a Husqvarna EPOS mower that got trapped in loose dirt. Ran a CPU stress loop on the Macbook to test power bank charge rates. rtk4logistics field test at potential customer's.
+2026-08-12;RTK4LOGISTICS,RESEARCH;Forklift orientation & power bank testing;Researched dual-antenna RTK GNSS and IMU sensors for forklift positioning in open yards. Tested trickle charge behavior of the new Anker power bank. rtk4logistics field test at potential customer's.
+2026-08-11;LEGAL,FINANCES,PROCUREMENT;Property lease contract & battery sourcing;Drafted lease addendums to expand the business use of properties. Sourced 18650 lithium cells and high-power car chargers field tests.
+2026-08-10;RTK4LOGISTICS,PROCUREMENT;Field test power bank research;Researched high-capacity USB PD power banks supporting trickle charge mode for microcontrollers during long outdoor field deployments.
+2026-08-08;DEVELOPMENT,RTK4MODBUS;Heat pump dealer outreach;Drafted and translated a detailed inquiry for Panasonic heat pump project to send to local dealers.
+2026-08-07;FINANCES,AI;Neste application & Vertex AI quota;Drafted a response to Neste for a fuel card credit limit request. Submitted a Vertex AI quota request for the Claude 5 Fable model.
+2026-08-06;INFRA,FUN,ELECTRONICS;Switch purchase & isolation transformer test;Sourced a MikroTik CRS326 switch for the lab under-desk mount. Tested a 500VA isolation transformer under load and checked its thermals.
+2026-08-05;ACCOUNTING,RTK4LOGISTICS;Apple billing issue & ZED-F9P script upgrade;Fixed a Swedbank credit card issue where Apple billed the company card. Updated the RTK base script to fetch active satellite counts. rtk4logistics field test at potential customer's.
+2026-08-04;RTK4LOGISTICS,LEGAL;Field test checklist & corporate purchasing rules;Created a comprehensive field testing checklist for the RTK setup. rtk4logistics field test at potential customer's. Researched Latvian tax rules regarding cash receipts versus official invoices.
+2026-08-03;DEVELOPMENT,RTK4LOGISTICS,ACCOUNTING,INFRA;ZED-F9P python scripts & July closing;Installed PyGPSClient on Mac and wrote 3 python scripts for tests of ZED-F9P. Completed July accounting books and re-routed server cooling.
+2026-08-02;INFRA,OPENHAB;openHAB service restoration;Restored Dupline Modbus controls, the Basic UI, and the daily PIR CSV logger script on the newly migrated openHAB server.
+2026-08-01;INFRA,OPENHAB;openHAB migration;Migrated the openHAB home automation system from the old Raspberry Pi to an ASUS Atom D525 board.
+2026-07-31;DEVELOPMENT;ESPHome voice satellite success;Found and fixed a loose SCK clock wire that caused microphone issues. Got the ESPHome voice satellite fully connected and reacting to the wake word. Then lost it again :(
+2026-07-30;DEVELOPMENT,INFRA;ESPHome transition & network fixes;Pivoted the voice satellite firmware to ESPHome using REST commands. Troubleshot Mikrotik firewall ports to establish connection with Home Assistant.
+2026-07-29;DEVELOPMENT,INFRA;Willow satellite debugging & VLAN routing;Troubleshot Willow hardware issues. Fixed Mikrotik firewall rules.
+2026-07-28;LEGAL,DEVELOPMENT,INFRA;Car agreement, WIS deployment & Willow firmware;Drafted a free car rent agreement. Set up Willow Inference Server in Docker on kurmis2 and flashed custom firmware to the voice satellite.
+2026-07-27;DEVELOPMENT,RTK4LOGISTICS;rtk4logistics branch & sourcing;Branched rtk4forest into a new rtk4logistics project.
+2026-07-26;DEVELOPMENT,RTK4MODBUS,FINANCES;Heat pump research & tax planning;Selected a Panasonic heat pump as a testbed for rtk4modbus. Evaluated B2B vs B2C tax options and decided on a B2C purchase.
+2026-07-24;PROCUREMENT;FedEx customs clearance;Reviewed and processed the final FedEx customs declaration documents for the Mouser order.
+2026-07-23;NULL;Out of Lab;
+2026-07-22;FUN,ELECTRONICS,INFRA,FINANCES;MagSafe stand design & network planning;Modified 3D models for a custom MagSafe display mount. Researched cheap access points for the IoT VLAN.
+2026-07-21;PROCUREMENT,INFRA;FedEx customs & network documentation;Dealt with FedEx customs issues on the Mouser order regarding shipping terms. Updated network infrastructure blueprint and researched modbus heat pumps.
+2026-07-20;FUN,ELECTRONICS,INFRA;3D printer calibration & backup server network setup;Swapped 3D printer nozzle to 0.3mm and fixed a thermal runaway error. Setup the backup Raspberry Pi and checked openHAB security.
+2026-07-19;AI,INFRA;Vertex AI setup & backup server;Fought with Google Cloud Vertex AI model access errors. Built a simple backup server from an old Raspberry Pi with an external USB disk.
+2026-07-18;STRATEGY,AI,DEVELOPMENT,RTK4MODBUS;Side Hustles Matrix & rtk4modbus start;Analyzed eight side hustle ideas. Selected the isolated RS485-to-Matter bridge project, naming it rtk4modbus. Set up Google Cloud service account keys for Vertex AI.
 2026-07-17;FINANCES,LEGAL,PROCUREMENT,OPENHAB,DEVELOPMENT,RTK4HAR,INFRA;Loan execution, Mouser customs, openHAB audit & routerOS security audit, updates and backup;Completed shareholder loan. Prepared FedEx customs clearance for Mouser shipment. Worked on openHAB configuration: restored Yeelight lights, created global sitemap, finally created and started data collection for rtk4har project, created Gitlab repository. Did security audit and updates on routerOS, set up backups.
 2026-07-16;FINANCES,LEGAL,DEVELOPMENT,ESP32BARO;Loan & esp32baro hardware design;Evaluated funding options to sustain lab operations. Drafted shareholder loan agreement. Renamed BME280/ESP32 project to esp32baro. Worked on esp32baro BOM and netlist.
 2026-07-15;ACCOUNTING,AI;Beancount cleanup & AI workflows;Renumbered inventory and bank fee accounts in Beancount. Worked on AI workflows: moved my main Gemini Business development Gem to agentic antigravity-cli environment.
