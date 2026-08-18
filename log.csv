@@ -1,4 +1,5 @@
 Date;Tags;Title;Content
+2026-08-18;INFRA;WiFi migration;Planned and prepared for WiFi migration to the new Mikrotik hAP ax3.
 2026-08-17;MARKETING,RTK4LOGISTICS;Lab Log recovery, base power solution;Recovered Lab Log for last 4 weeks. Base power solution upgrade research. Need stable 18650 LiIon battery charging and simultaneous external power delivery.
 2026-08-16;RTK4LOGISTICS,TROUBLESHOOTING;Base station power troubleshooting;Troubleshot Sparkfun RTK-SMA board battery voltage drop. Diagnosed battery charge/pass-through issues with the Anker power bank.
 2026-08-14;NULL;Out of Lab;
