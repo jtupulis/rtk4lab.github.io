@@ -1,5 +1,5 @@
 Date;Tags;Title;Content
-2026-09-28;CUSTOMERS;Reliefos;Met Reliefos founder, discussed potetial cooperation.
+2026-09-28;CUSTOMERS;Reliefos;Met Reliefos founder, discussed potential cooperation.
 2026-09-26;STRATEGY,DEVELOPMENT;Reliefos device prototyping inquiry;Evaluated inbound prototyping and electronics development inquiry for the Reliefos device, analyzing technical requirements and rtk4 capability alignment.
 2026-09-25;NULL;Out of Lab;
 2026-09-24;DEVELOPMENT,RTK4LOGISTICS;pcb2gcode rest machining & LinuxCNC probe setup;Tested pcb2gcode for trace isolation and pad clearance enlargement. Configured LinuxCNC tool table and automated Z-zero touch probe routine for PCB milling.
