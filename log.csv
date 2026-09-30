@@ -1,5 +1,6 @@
 Date;Tags;Title;Content
-2026-09-28;RTK4LOGISTICS;Adapter board PCB redesign;Fixed a design error - needed to reroute some tracks as board has components on both sides.
+2026-09-30;RTK4LOGISTICS,FINANCE,PURCHASING,NETWORKING;rtk4logistics adapter board, another loan for buying things, StartupHouse event;Adapter board PCB milling, PCB milling workflow improvements, printNC CNC calibration. Marketing Knowledge Sharing Meet-Up at StartupHouse.
+2026-09-29;RTK4LOGISTICS;Adapter board PCB redesign;Fixed a design error - needed to reroute some tracks as board has components on both sides.
 2026-09-28;CUSTOMERS;Reliefos;Met Reliefos founder, discussed potential cooperation.
 2026-09-26;STRATEGY,DEVELOPMENT;Reliefos device prototyping inquiry;Evaluated inbound prototyping and electronics development inquiry for the Reliefos device, analyzing technical requirements and rtk4 capability alignment.
 2026-09-25;NULL;Out of Lab;
@@ -10,7 +11,7 @@ Date;Tags;Title;Content
 2026-09-20;RTK4LOGISTICS,DEVELOPMENT;TME parts delivery & dual ZED-F9P adapter;Received TME hardware delivery. Started designing an adapter carrier board for two SparkFun ZED-F9P modules for bench testing.
 2026-09-18;LEARNING,CAD,CNC;Hinge CAD alignment & CNC tooling selection;Aligned aluminum hinge 3D models in Fusion 360 and selected CNC end mill bits for aluminum plate machining.
 2026-09-17;LEGAL,LEARNING,CAD,CNC;Aluminum hinge CAD & PayPal business tax rules;Refined CadQuery script for CNC milling aluminum hinge knuckle with pin holes. Researched Latvian VID registration rules for business PayPal accounts.
-2026-09-16;RTK4LOGISTICS,PROCUREMENT,INFRA,OPENHAB;BOM connector sourcing & SSL renewal;Finalized waterproof connectors and IMU breakout sourcing for rtk4logistics across Mouser and TME. Renewed internal SSL certificates and fixed CO2 alerts.
+2026-09-16;RTK4LOGISTICS,PROCUREMENT,INFRA,OPENHAB;BOM connector  & SSL renewal;Finalized waterproof connectors and IMU breakout sourcing for rtk4logistics across Mouser and TME. Renewed internal SSL certificates and fixed CO2 alerts.
 2026-09-15;LEARNING,CAD,3DPRINTING;Fusion 360 MagSafe mount & hinge modeling;Modeled and 3D printed custom MagSafe monitor mount in Fusion 360. Developed CadQuery script to generate DXF profiles for CNC-milled aluminum hinges.
 2026-09-14;LEARNING,CAD;Soldering station research & CAD parametric curves;Researched Hakko hot air station. Explored parametric offset curve modeling in Fusion 360.
 2026-09-12;PROCUREMENT,TOOLS;Electrician screwdriver research;Researched Wiha speedE VDE electric screwdrivers and slimBit systems for lab.
@@ -39,7 +40,7 @@ Date;Tags;Title;Content
 2026-08-14;NULL;Out of Lab;
 2026-08-13;RTK4LOGISTICS,FUN,ELECTRONICS;Automower recovery & CPU test;Troubleshot a Husqvarna EPOS mower that got trapped in loose dirt. Ran a CPU stress loop on the Macbook to test power bank charge rates. rtk4logistics field test at potential customer's.
 2026-08-12;RTK4LOGISTICS,RESEARCH;Forklift orientation & power bank testing;Researched dual-antenna RTK GNSS and IMU sensors for forklift positioning in open yards. Tested trickle charge behavior of the new Anker power bank. rtk4logistics field test at potential customer's.
-2026-08-11;LEGAL,FINANCES,PROCUREMENT;Property lease contract & battery sourcing;Drafted lease addendums to expand the business use of properties. Sourced 18650 lithium cells and high-power car chargers field tests.
+2026-08-11;LEGAL,FINANCES,PROCUREMENT;Property lease contract & battery ;Drafted lease addendums to expand the business use of properties. Sourced 18650 lithium cells and high-power car chargers field tests.
 2026-08-10;RTK4LOGISTICS,PROCUREMENT;Field test power bank research;Researched high-capacity USB PD power banks supporting trickle charge mode for microcontrollers during long outdoor field deployments.
 2026-08-08;DEVELOPMENT,RTK4MODBUS;Heat pump dealer outreach;Drafted and translated a detailed inquiry for Panasonic heat pump project to send to local dealers.
 2026-08-07;FINANCES,AI;Neste application & Vertex AI quota;Drafted a response to Neste for a fuel card credit limit request. Submitted a Vertex AI quota request for the Claude 5 Fable model.
@@ -53,7 +54,7 @@ Date;Tags;Title;Content
 2026-07-30;DEVELOPMENT,INFRA;ESPHome transition & network fixes;Pivoted the voice satellite firmware to ESPHome using REST commands. Troubleshot Mikrotik firewall ports to establish connection with Home Assistant.
 2026-07-29;DEVELOPMENT,INFRA;Willow satellite debugging & VLAN routing;Troubleshot Willow hardware issues. Fixed Mikrotik firewall rules.
 2026-07-28;LEGAL,DEVELOPMENT,INFRA;Car agreement, WIS deployment & Willow firmware;Drafted a free car rent agreement. Set up Willow Inference Server in Docker on kurmis2 and flashed custom firmware to the voice satellite.
-2026-07-27;DEVELOPMENT,RTK4LOGISTICS;rtk4logistics branch & sourcing;Branched rtk4forest into a new rtk4logistics project.
+2026-07-27;DEVELOPMENT,RTK4LOGISTICS;rtk4logistics branch & ;Branched rtk4forest into a new rtk4logistics project.
 2026-07-26;DEVELOPMENT,RTK4MODBUS,FINANCES;Heat pump research & tax planning;Selected a Panasonic heat pump as a testbed for rtk4modbus. Evaluated B2B vs B2C tax options and decided on a B2C purchase.
 2026-07-24;PROCUREMENT;FedEx customs clearance;Reviewed and processed the final FedEx customs declaration documents for the Mouser order.
 2026-07-23;NULL;Out of Lab;
@@ -83,7 +84,7 @@ Date;Tags;Title;Content
 2026-06-20;VACATION;Vacation starts;DIY at forest house & hunting for a week.
 2026-06-19;INFRA,ROADMAP,ACCOUNTING;Dell U2725QE, Meeting at EDI, Accounting automation;Updated firmware on the Dell U2725QE. Met Integrated circuits and systems laboratory guys at EDI. Learned about their work. Discussed their quantum magnetometry research. Monthly accounting routine automation.
 2026-06-18;INFRA,ACCOUNTING;Dell U2725QE, Accountiong routine for Aliexpress purchasing;Investigated Dell U2725QE issues. Firmware update incoming. Investigated accountiong routine for Aliexpress purchasing.
-2026-06-17;DEVELOPMENT,PURCHASING;ESP32Voice, Sourcing platforms;Defined mini-project - ESP32 based voice recognition module. Built BOM for POC for it. Investigated Aliexpress parts, components, modules, materials sourcing platforms alternatives (LCSC, eBay, etc). Stayed with Aliexpress for materials for experiments and POCs.
+2026-06-17;DEVELOPMENT,PURCHASING;ESP32Voice,  platforms;Defined mini-project - ESP32 based voice recognition module. Built BOM for POC for it. Investigated Aliexpress parts, components, modules, materials  platforms alternatives (LCSC, eBay, etc). Stayed with Aliexpress for materials for experiments and POCs.
 2026-06-16;INFRA;Google Calendar;Tried to set up Google Calendar sharing between accounts, no success.
 2026-06-15;INFRA,MARKETING;Dell U2725QE, AIConnect;Set up the new Dell U2725QE. Prepared and submitted rtk4 presentation for aiconnect.lv conference. Will share my journey of setting up a boutique electronics lab business using AI.
 2026-06-12;INFRA;routerOS;Network implementation. Took more time than I expected. Gemini AI seems to be pretty good with routerOS advice.
