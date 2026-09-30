@@ -1,4 +1,5 @@
 Date;Tags;Title;Content
+2026-09-28;RTK4LOGISTICS;Adapter board PCB redesign;Fixed a design error - needed to reroute some tracks as board has components on both sides.
 2026-09-28;CUSTOMERS;Reliefos;Met Reliefos founder, discussed potential cooperation.
 2026-09-26;STRATEGY,DEVELOPMENT;Reliefos device prototyping inquiry;Evaluated inbound prototyping and electronics development inquiry for the Reliefos device, analyzing technical requirements and rtk4 capability alignment.
 2026-09-25;NULL;Out of Lab;
