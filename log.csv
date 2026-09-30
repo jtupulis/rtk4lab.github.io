@@ -2,19 +2,19 @@ Date;Tags;Title;Content
 2026-09-28;CUSTOMERS;Reliefos;Met Reliefos founder, discussed potential cooperation.
 2026-09-26;STRATEGY,DEVELOPMENT;Reliefos device prototyping inquiry;Evaluated inbound prototyping and electronics development inquiry for the Reliefos device, analyzing technical requirements and rtk4 capability alignment.
 2026-09-25;NULL;Out of Lab;
-2026-09-24;DEVELOPMENT,RTK4LOGISTICS;pcb2gcode rest machining & LinuxCNC probe setup;Tested pcb2gcode for trace isolation and pad clearance enlargement. Configured LinuxCNC tool table and automated Z-zero touch probe routine for PCB milling.
+2026-09-24;DEVELOPMENT,RTK4LOGISTICS,CNC;pcb2gcode rest machining & LinuxCNC probe setup;Tested pcb2gcode for trace isolation and pad clearance enlargement. Configured LinuxCNC tool table and automated Z-zero touch probe routine for PCB milling.
 2026-09-23;DEVELOPMENT,RTK4LOGISTICS,CNC;CAM setup & PCB isolation routing;Deployed Dockerized FlatCAM on Mac to generate PCB isolation g-code for LinuxCNC. That was a fail. Fusion 360 too. Landed on pcb2gcode with customized pcb2gcodeGUI. Built tooling library for PCB engraving bits and roughing end mills.
-2026-09-22;INFRA,ELECTRONICS,3DPRINTING;Server fan replacement & PETG-CF research;Replaced noisy chassis cooling fan on openHAB ASUS server following thermal shutdown. Researched Ender 3 hardware upgrades for PETG-CF printing and filament dryers.
+2026-09-22;INFRA,3DPRINTING;Server fan replacement & PETG-CF research;Replaced noisy chassis cooling fan on openHAB ASUS server following thermal shutdown. Researched Ender 3 hardware upgrades for PETG-CF printing and filament dryers.
 2026-09-21;RTK4LOGISTICS,DEVELOPMENT,OPENHAB;Dual ZED-F9P carrier schematic & Dupline entry;Designed 2-sided carrier PCB in KiCad and fixed symbol library tables. Researched Apple Watch as NFC actuator for Dupline relays in openHAB.
 2026-09-20;RTK4LOGISTICS,DEVELOPMENT;TME parts delivery & dual ZED-F9P adapter;Received TME hardware delivery. Started designing an adapter carrier board for two SparkFun ZED-F9P modules for bench testing.
-2026-09-18;FUN,ELECTRONICS;Hinge CAD alignment & CNC tooling selection;Aligned aluminum hinge 3D models in Fusion 360 and selected CNC end mill bits for aluminum plate machining.
-2026-09-17;FUN,ELECTRONICS,LEGAL;Aluminum hinge CAD & PayPal business tax rules;Refined CadQuery script for CNC milling aluminum hinge knuckle with pin holes. Researched Latvian VID registration rules for business PayPal accounts.
+2026-09-18;LEARNING,CAD,CNC;Hinge CAD alignment & CNC tooling selection;Aligned aluminum hinge 3D models in Fusion 360 and selected CNC end mill bits for aluminum plate machining.
+2026-09-17;LEGAL,LEARNING,CAD,CNC;Aluminum hinge CAD & PayPal business tax rules;Refined CadQuery script for CNC milling aluminum hinge knuckle with pin holes. Researched Latvian VID registration rules for business PayPal accounts.
 2026-09-16;RTK4LOGISTICS,PROCUREMENT,INFRA,OPENHAB;BOM connector sourcing & SSL renewal;Finalized waterproof connectors and IMU breakout sourcing for rtk4logistics across Mouser and TME. Renewed internal SSL certificates and fixed CO2 alerts.
-2026-09-15;FUN,ELECTRONICS,CAD;Fusion 360 MagSafe mount & hinge modeling;Modeled and 3D printed custom MagSafe monitor mount in Fusion 360. Developed CadQuery script to generate DXF profiles for CNC-milled aluminum hinges.
-2026-09-14;FUN,ELECTRONICS,CAD;Soldering station research & CAD parametric curves;Researched Hakko hot air station. Explored parametric offset curve modeling in Fusion 360.
+2026-09-15;LEARNING,CAD,3DPRINTING;Fusion 360 MagSafe mount & hinge modeling;Modeled and 3D printed custom MagSafe monitor mount in Fusion 360. Developed CadQuery script to generate DXF profiles for CNC-milled aluminum hinges.
+2026-09-14;LEARNING,CAD;Soldering station research & CAD parametric curves;Researched Hakko hot air station. Explored parametric offset curve modeling in Fusion 360.
 2026-09-12;PROCUREMENT,TOOLS;Electrician screwdriver research;Researched Wiha speedE VDE electric screwdrivers and slimBit systems for lab.
-2026-09-11;FUN,ELECTRONICS;macOS power telemetry script;Created a zsh loop to monitor live charging wattage, voltage, and current via AppleSmartBattery telemetry.
-2026-09-10;FUN,CAD;Fusion 360 hinge contour & Inkscape vectorization;Learned CAD: vectorized hand-drawn cabinet hinge sketch in Inkscape > imported SVG into Fusion 360, constructed 3D body, and resolved spline filleting issues.
+2026-09-11;INFRA;macOS power telemetry script;Created a zsh loop to monitor live charging wattage, voltage, and current via AppleSmartBattery telemetry.
+2026-09-10;LEARNING,CAD;Fusion 360 hinge contour & Inkscape vectorization;Learned CAD: vectorized hand-drawn cabinet hinge sketch in Inkscape > imported SVG into Fusion 360, constructed 3D body, and resolved spline filleting issues.
 2026-09-09;OPENHAB,RTK4LOGISTICS,PROCUREMENT;Latvian flag light preset & prototype sourcing;Created Latvian flag color preset rule in openHAB. Sourced ArduSimple GNSS antennas, IP67 connectors, and enclosure parts from Mouser and TME.
 2026-09-08;RTK4LOGISTICS,DEVELOPMENT,AI;rtk4logistics prototype BOM & PCB workflow;Updated rtk4logistics prototype BOM with ArduSimple simpleRTK2B receivers. Established a phased KiCad PCB layout workflow for Gemini assistance.
 2026-09-07;NULL;Out of Lab;
@@ -24,8 +24,8 @@ Date;Tags;Title;Content
 2026-09-01;ACCOUNTING,INFRA;August month close & ZSH account switcher;Closed August accounting records and travel logs in Beancount. Configured Zsh environment aliases to switch between Google Cloud and personal AI profiles.
 2026-08-31;AI,RTK4LOGISTICS,DEVELOPMENT;Claude CLI setup & rtk4logistics PCB review;Set up Claude CLI with Vertex AI. Reviewed rtk4logistics risk assessment and audited the GNSS rover schematic using KiCad MCP.
 2026-08-28;INFRA,TROUBLESHOOTING;hAP be lite troubleshooting;Troubleshot VLAN and client association issues on the new hAP be lite access point.
-2026-08-27;FUN,ELECTRONICS,INFRA;hAP be lite provisioning & sheath refinement;Provisioned new MikroTik hAP be lite access point. Adjusted CAD model for the Swibo sheath fingerguard angle and reprinted.
-2026-08-26;FUN,ELECTRONICS;3D printed MagSafe mount & Swibo sheath;Designed a 3-part threaded M8 MagSafe mount for the Dell monitor in CAD. Restored OctoPrint backup and 3D printed a custom sheath for the Swibo deboning knife.
+2026-08-27;LEARNING,CAD,3DPRINTING,INFRA;hAP be lite provisioning & sheath refinement;Provisioned new MikroTik hAP be lite access point. Adjusted CAD model for the Swibo sheath fingerguard angle and reprinted.
+2026-08-26;LEARNING,CAD,3DPRINTING;3D printed MagSafe mount & Swibo sheath;Designed a 3-part threaded M8 MagSafe mount for the Dell monitor in CAD. Restored OctoPrint backup and 3D printed a custom sheath for the Swibo deboning knife.
 2026-08-25;RTK4LOGISTICS,DEVELOPMENT,INFRA;rtk4logistics carrier board & ArduSimple dual-antenna;Evaluated ArduSimple simpleRTK2B dual ZED-F9P receiver options and RF certification requirements. Started KiCad carrier board schematic and refined financial proposal.
 2026-08-24;OPENHAB,RTK4LOGISTICS;DSC drift & CO2 alerts, rtk4logistics proposal;Added DSC alarm clock drift checks and CO2 threshold alerts to openHAB. Drafted financial proposal and risk assessment for rtk4logistics potential customer.
 2026-08-22;OPENHAB,INFRA;AV receiver automation & WiFi extension planning;Configured TV and AV receiver power sync and IR volume automation in openHAB. Evaluated MikroTik hAP be lite for dead zone coverage.
