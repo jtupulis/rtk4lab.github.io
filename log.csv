@@ -1,5 +1,6 @@
 Date;Tags;Title;Content
-2026-09-30;INFRA;printNC CNC tests and calibration;Ran tests, squared XY, decreased jitter. linuxCNC config updated.
+2026-10-02;OPENHAB;openHAB instance at legal address;Found MB, RAM, SSD, PSU in oldies drawer, put together, Debian and openHAB install, some config.
+2026-10-01;TOOLS;printNC CNC tests and calibration;Ran tests, squared XY, decreased jitter. linuxCNC config updated.
 2026-09-30;RTK4LOGISTICS,FINANCE,PURCHASING,NETWORKING;rtk4logistics adapter board, another loan for buying things, StartupHouse event;Adapter board PCB milling, PCB milling workflow improvements, printNC CNC calibration. Marketing Knowledge Sharing Meet-Up at StartupHouse.
 2026-09-29;RTK4LOGISTICS;Adapter board PCB redesign;Fixed a design error - needed to reroute some tracks as board has components on both sides.
 2026-09-28;CUSTOMERS;Reliefos;Met Reliefos founder, discussed potential cooperation.
