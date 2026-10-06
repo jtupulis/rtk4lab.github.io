@@ -1,4 +1,6 @@
 Date;Tags;Title;Content
+2026-10-06;ACCOUNTING,3DDESIGN,3DPRINTING,TOOLS;Month closing & Coninuity Camera Mount;Worked on Coninuity Camera Mount, learning still. Siglent SPD3303X arrived, turned it on, working. Will test later. Thinking of the right location in the lab.
+2026-10-05;ACCOUNTING,3DDESIGN,3DPRINTING;Month closing & Coninuity Camera Mount;September month closing prep. Worked on Coninuity Camera Mount, still learning a lot.
 2026-10-02;OPENHAB;openHAB instance at legal address;Found MB, RAM, SSD, PSU in oldies drawer, put together, Debian and openHAB install, some config.
 2026-10-01;TOOLS;printNC CNC tests and calibration;Ran tests, squared XY, decreased jitter. linuxCNC config updated.
 2026-09-30;RTK4LOGISTICS,FINANCE,PURCHASING,NETWORKING;rtk4logistics adapter board, another loan for buying things, StartupHouse event;Adapter board PCB milling, PCB milling workflow improvements, printNC CNC calibration. Marketing Knowledge Sharing Meet-Up at StartupHouse.
