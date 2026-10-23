@@ -1,4 +1,7 @@
 Date;Tags;Title;Content
+2026-10-25;VACATION;Vacation ends;Good times.
+2026-10-17;VACATION;Vacation starts;DIY at forest house & hunting for a week.
+
 2026-10-07;RTK4LOGISTICS,3DDESIGN,3DPRINTING,TOOLS,INFRA;Adapter board milling, Coninuity Camera Mount, Ball bearing spool holder,CG and eKey host upgrade;Worked on PCB milling workflow, tried to mill rtk4logistics adapter board, failed. Finished v1 of the Continuity Camera mount, actually usable, used it for a meeting. Need some tuning. Thinking of putting the design on makerworld.com or similar. Started to print ball bearing spool holder for my Ender 3. Upgraded the host running Carlo Gavazzi Dupline config SW and eKey server. Some tuning in order.
 2026-10-06;ACCOUNTING,3DDESIGN,3DPRINTING,TOOLS;Month closing & Coninuity Camera Mount;September month closing done. Worked on Coninuity Camera Mount, learning still. Siglent SPD3303X arrived, turned it on, working. Will test later. Thinking of the right location in the lab.
 2026-10-05;ACCOUNTING,3DDESIGN,3DPRINTING;Month closing & Coninuity Camera Mount;September month closing prep. Worked on Coninuity Camera Mount, still learning a lot.
