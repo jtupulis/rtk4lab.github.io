@@ -1,0 +1,8 @@
+/* Shared design tokens for rtk4.lv.
+   log.html links this file; index.html still defines the same tokens inline
+   (to be consolidated in the brand restyle, backlog P4). */
+:root {
+    --forest-green: #228B22;
+    --dark-bg: #0a0a0a;
+    --text-light: #e0e0e0;
+}
