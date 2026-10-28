@@ -36,6 +36,14 @@
         .artifact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 40px; }
         .artifact-card { border: 1px solid #333; padding: 25px; border-radius: 4px; transition: border-color 0.3s; background: #0f0f0f; }
         .artifact-card:hover { border-color: var(--forest-green); }
+        .services { margin-top: 20px; border-top: 1px solid #333; }
+        .services details { border-bottom: 1px solid #333; }
+        .services summary { cursor: pointer; padding: 14px 0; font-weight: 600; font-size: 1.1rem; list-style: none; }
+        .services summary::-webkit-details-marker { display: none; }
+        .services summary::before { content: "+"; display: inline-block; width: 1.4em; color: var(--forest-green); }
+        .services details[open] summary::before { content: "\2212"; }
+        .services summary:hover { color: var(--forest-green); }
+        .services details > :not(summary) { margin: 0 0 16px 1.4em; }
         .artifact-card img { width: 100%; border-radius: 4px; border: 1px solid var(--forest-green); margin-bottom: 15px; }
         
         /* Updated Status Bar to be a Link */
@@ -92,6 +100,7 @@
 <body>
 
     <nav>
+        <a href="#prototyping">Prototyping</a>
         <a href="log.html" style="border: 1px solid var(--forest-green); padding: 5px 15px; border-radius: 4px;">Lab Log</a>
     </nav>
 
@@ -131,6 +140,54 @@
                 <p>Wildlife trapping require regular, physically demanding site visits, often over several kilometers of challenging terrain. Many of these trips result in discovering an inactive trap. We prototyped LoRa sensor network to remotely monitor trap status.</p>
             </div>
         </div>
+
+        <section id="prototyping" style="margin-top: 60px;">
+            <h2>Prototyping services</h2>
+            <p>The lab that built the artifacts above is open for your hardware idea: from concept to a working bench or field prototype. The work goes in small steps, and you can stop after any of them.</p>
+
+            <div class="services">
+                <details>
+                    <summary>Feasibility review</summary>
+                    <p>I check requirements, architecture and parts list (BOM) before money goes into hardware: single-sourced parts, power and thermal budget, radio and certification triggers. You get a written assessment and a go / no-go.</p>
+                </details>
+                <details>
+                    <summary>Proof of concept</summary>
+                    <p>Development boards and breakouts on the bench, to test the one assumption the idea depends on.</p>
+                </details>
+                <details>
+                    <summary>Prototype</summary>
+                    <p>Custom PCB, firmware and enclosure parts, assembled and tested in the lab.</p>
+                </details>
+                <details>
+                    <summary>Field test</summary>
+                    <p>Tested where it will be used: forest, yard, building. Results and known limits are documented.</p>
+                </details>
+                <details>
+                    <summary>Technical supervision</summary>
+                    <p>Your own team or a student builds the prototype; I set the architecture, review parts choices and design, and check the build at agreed points.</p>
+                </details>
+                <details>
+                    <summary>What the lab covers</summary>
+                    <ul>
+                        <li><strong>Electronics:</strong> schematics and PCB layout in KiCad. Prototype boards milled in the lab or made by external PCB houses; assembled in the lab or by the PCB house.</li>
+                        <li><strong>Firmware:</strong> ESP32 family and classic Arduino boards (ESP-IDF, Arduino, ESPHome, PlatformIO).</li>
+                        <li><strong>Positioning and radio:</strong> RTK GNSS (u-blox ZED-F9P), LoRa, nRF24L01, Wi-Fi / BLE.</li>
+                        <li><strong>Sensors and interfaces:</strong> environmental sensing, Modbus / RS-485, integration with building automation (openHAB).</li>
+                        <li><strong>Mechanics:</strong> CAD (Fusion 360, CadQuery), FDM 3D printing, CNC milling.</li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>What I don't do</summary>
+                    <ul>
+                        <li>Series production. Small batches only.</li>
+                        <li>Certification testing (CE, RED, EMC). That's done at accredited labs; I prepare the design for it.</li>
+                        <li>Many projects at once. rtk4 is a one-person lab: you talk directly to the engineer, and the queue is short but real.</li>
+                    </ul>
+                </details>
+            </div>
+
+            <p style="margin-top: 24px;">Send a short description of the idea, its constraints (size, power, environment) and timeline to <a href="mailto:jtu@rtk4.lv?subject=Prototyping%20inquiry">jtu@rtk4.lv</a>.</p>
+        </section>
 
         <div style="margin-top: 60px;">
             <h2>The rtk4 Logic</h2>
