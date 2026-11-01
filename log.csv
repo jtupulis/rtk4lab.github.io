@@ -1,11 +1,24 @@
 Date;Tags;Title;Content
+2026-10-30;MARKETING,PLANNING,3DPRINTING;Follow-ups and Lab Log catch-up;Closed old follow-ups and sent a few new ones. Rebuilt the missing October Lab Log entries with Claude. Got the OctoPrint filament runout sensor working.
+2026-10-29;MARKETING,AI;Brand guide done, Lab Log rules;Finished the brand guide: dropped X as a channel. Moved the Lab Log rules to the shared rules repo, set up a morning brief with Claude.
+2026-10-28;MARKETING,BRANDING;Prototyping services live on rtk4.lv;Added a prototyping services section to the website. Reviewed my LinkedIn posts and old Gemini chats for marketing decisions and lessons.
+2026-10-27;MARKETING,AI,BRANDING,STRATEGY;Website fixes and brand review;Started a marketing review with Claude: fixed website bugs and drafted brand guide v2. Checked the market numbers for two side-hustle ideas, they were too optimistic.
 2026-10-26;TOOLS,INFRA,OPENHAB;Gemini>Claude & PC assembly;Continued to move routines and projects from Gemini to Claude. Tried some of Claude on openHAB. Put the second openHAB host HW into case finally.
 2026-10-25;VACATION;Vacation ends;Good times.
+2026-10-21;NETWORKING;Open Coffee Club Riga #11;Went to Open Coffee Club Riga #11. Met one contact worth following up.
 2026-10-17;VACATION;Vacation starts;DIY at forest house & hunting for a week.
-2026-10-14;TOOLS,PURCHASING;Claude;Decided to try Claude, bought Anthropic's Pro.
-2026-10-07;RTK4LOGISTICS,3DDESIGN,3DPRINTING,TOOLS,INFRA;Adapter board milling, Continuity Camera Mount, Ball bearing spool holder, automation host upgrade;Worked on PCB milling workflow, tried to mill rtk4logistics adapter board, failed. Finished v1 of the Continuity Camera mount, actually usable, used it for a meeting. Need some tuning. Thinking of putting the design on makerworld.com or similar. Started to print ball bearing spool holder for my Ender 3. Upgraded the host running old building automation config software.
+2026-10-16;CUSTOMERS,PROCUREMENT;Talked to student team lead and helped with parts research;Went through their list, discussed, suggested open source HW project for TENS, looked up some parts.
+2026-10-15;3DPRINTING,TROUBLESHOOTING;Gridfinity print trouble;One Gridfinity lid came off the bed mid-print. Cancelled the job and analysed the slicing of the lids.
+2026-10-14;TOOLS,PURCHASING,OPENHAB,3DPRINTING;Claude, heating setback, Ender 3 fix;Decided to try Claude, bought Anthropic's Pro. Added a vacation setback for the heat pump in openHAB (need to put actuators in place to finish the setup) and fixed a cold-start heating failure on the Ender 3.
+2026-10-13;LEGAL,3DPRINTING;Loan agreement annex;Added a photo annex to the lab equipment loan agreement. Looked at 3D-printed Raspberry Pi mounts for the Ender 3.
+2026-10-12;LEGAL,INFRA;Equipment loan agreement and automation host migration;Updated the lab equipment loan agreement. Finished moving legacy building automation software to a new virtual machine host, with backups and monitoring.
+2026-10-11;INFRA,3DPRINTING;Power cut review and monitoring dashboard;Reviewed what the infrastructure did during Friday's power cut and built a simple monitoring dashboard for the lab hosts. The filament sensor arrived.
+2026-10-09;CUSTOMERS,INFRA;Component list review and unplanned UPS test;Reviewed a component list for a student prototyping project. A storm power cut tested the new UPS setup: one server didn't come back on its own.
+2026-10-08;MARKETING,INFRA;LinkedIn post and new profile photo;Published a LinkedIn post on where AI helps and fails in PCB prototyping and changed the profile photo. Rethought the migration plan for a legacy automation host.
+2026-10-07;RTK4LOGISTICS,3DDESIGN,3DPRINTING,TOOLS,INFRA,CUSTOMERS;Adapter board milling, Continuity Camera Mount, Ball bearing spool holder, automation host upgrade;Worked on PCB milling workflow, tried to mill rtk4logistics adapter board, failed. Finished v1 of the Continuity Camera mount, actually usable, used it for a meeting. Need some tuning. Thinking of putting the design on makerworld.com or similar. Started to print ball bearing spool holder for my Ender 3. Upgraded the host running old building automation config software. Talked to a student team about prototyping their device.
 2026-10-06;ACCOUNTING,3DDESIGN,3DPRINTING,TOOLS;Month closing & Continuity Camera Mount;September month closing done. Worked on Continuity Camera Mount, learning still. Siglent SPD3303X arrived, turned it on, working. Will test later. Thinking of the right location in the lab.
 2026-10-05;ACCOUNTING,3DDESIGN,3DPRINTING;Month closing & Continuity Camera Mount;September month closing prep. Worked on Continuity Camera Mount, still learning a lot.
+2026-10-04;ACCOUNTING;September closing;Collected the remaining invoices for September closing.
 2026-10-02;OPENHAB;openHAB instance at legal address;Found MB, RAM, SSD, PSU in oldies drawer, put together, Debian and openHAB install, some config.
 2026-10-01;TOOLS;printNC CNC tests and calibration;Ran tests, squared XY, decreased jitter. linuxCNC config updated.
 2026-09-30;RTK4LOGISTICS,FINANCE,PURCHASING,NETWORKING;rtk4logistics adapter board, another loan for buying things, StartupHouse event;Adapter board PCB milling, PCB milling workflow improvements, printNC CNC calibration. Marketing Knowledge Sharing Meet-Up at StartupHouse.
