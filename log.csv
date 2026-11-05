@@ -1,4 +1,6 @@
 Date;Tags;Title;Content
+2026-11-04;AI,RTK4LOGISTICS,ACCOUNTING;Rover main board, accounting review;Worked on the rtk4logistics rover prototype hardware: main and power board specs, a first main board schematic and a BOM. Moved accounting from Gemini to Claude: reviewed the books and the Gemini-era history and wrote a month-close routine. Also automated the Lab Log gap check.
+2026-11-03;AI,DEVELOPMENT,CNC,MARKETING;DFM checklist, PCB milling routine, Virtual Ground card;Wrote a DFM checklist to be tried on couple projects first and updated for all later.  Fixed the PCB milling routine. Published card 04 on the website.
 2026-11-02;AI,STRATEGY,RTK4LOGISTICS;Move Gemini>Claude, Adapter board test, PCB milling routine;Worked on business development and sales strategy, created Claude agents for that. Tested rtk4logistics adapter board - it will do.
 2026-10-30;MARKETING,PLANNING,3DPRINTING;Follow-ups and Lab Log catch-up;Closed old follow-ups and sent a few new ones. Rebuilt the missing October Lab Log entries with Claude. Got the OctoPrint filament runout sensor working.
 2026-10-29;MARKETING,AI;Brand guide done, Lab Log rules;Finished the brand guide: dropped X as a channel. Moved the Lab Log rules to the shared rules repo, set up a morning brief with Claude.
