@@ -1,4 +1,5 @@
 Date;Tags;Title;Content
+2026-11-07;AI,MARKETING;rtk4 LinkedIn company page;Worked on the rtk4 LinkedIn company page with Claude. Page live.
 2026-11-06;AI,RTK4LOGISTICS,MARKETING;Adapter board v3 routing, Latvian Startup Awards;Found another Gemini induced glitch > re-routed adapter board. Drafted a LinkedIn profile update with Claude and met people at the Latvian Startup Awards 2026.
 2026-11-05;AI,DEVELOPMENT;Morning routine scripts;Worked on the scripts behind the morning routine: the reminders export and the Lab Log gap check.
 2026-11-04;AI,RTK4LOGISTICS,ACCOUNTING;Rover main board, accounting review;Worked on the rtk4logistics rover prototype hardware: main and power board specs, a first main board schematic and a BOM. Moved accounting from Gemini to Claude: reviewed the books and the Gemini-era history and wrote a month-close routine. Also automated the Lab Log gap check.
@@ -6,8 +7,8 @@ Date;Tags;Title;Content
 2026-11-02;AI,STRATEGY,RTK4LOGISTICS;Move Gemini>Claude, Adapter board test, PCB milling routine;Worked on business development and sales strategy, created Claude agents for that. Tested rtk4logistics adapter board - it will do.
 2026-10-30;MARKETING,PLANNING,3DPRINTING;Follow-ups and Lab Log catch-up;Closed old follow-ups and sent a few new ones. Rebuilt the missing October Lab Log entries with Claude. Got the OctoPrint filament runout sensor working.
 2026-10-29;MARKETING,AI;Brand guide done, Lab Log rules;Finished the brand guide: dropped X as a channel. Moved the Lab Log rules to the shared rules repo, set up a morning brief with Claude.
-2026-10-28;MARKETING,BRANDING;Prototyping services live on rtk4.lv;Added a prototyping services section to the website. Reviewed my LinkedIn posts and old Gemini chats for marketing decisions and lessons.
-2026-10-27;MARKETING,AI,BRANDING,STRATEGY;Website fixes and brand review;Started a marketing review with Claude: fixed website bugs and drafted brand guide v2. Checked the market numbers for two side-hustle ideas, they were too optimistic.
+2026-10-28;MARKETING;Prototyping services live on rtk4.lv;Added a prototyping services section to the website. Reviewed my LinkedIn posts and old Gemini chats for marketing decisions and lessons.
+2026-10-27;MARKETING,AI,STRATEGY;Website fixes and brand review;Started a marketing review with Claude: fixed website bugs and drafted brand guide v2. Checked the market numbers for two side-hustle ideas, they were too optimistic.
 2026-10-26;TOOLS,INFRA,OPENHAB;Gemini>Claude & PC assembly;Continued to move routines and projects from Gemini to Claude. Tried some of Claude on openHAB. Put the second openHAB host HW into case finally.
 2026-10-25;VACATION;Vacation ends;Good times.
 2026-10-21;NETWORKING;Open Coffee Club Riga #11;Went to Open Coffee Club Riga #11. Met one contact worth following up.
@@ -188,5 +189,5 @@ Date;Tags;Title;Content
 2026-03-08;FUN,ELECTRONICS,TROUBLESHOOTING;Weekend fun 🙂;Troubleshooting a failed Mac charger.
 2026-03-06;SITE_LAUNCH,INFRA;System Online: Timber and TLS;Morning started with physical logistics at -4°C. Transitioned to digital environment at 09:00. TLS active for rtk4.lv.
 2026-03-05;SITE_AUDIT,ECOSYSTEM;Icebreakers'26 Site Audit;Microchip session: secured contacts. Health Room: cancelled. Found the thermos.
-2026-03-04;BRANDING,LOGIC;Calibration of the Logical Anchor;Captured "Charged Cube" hero shot. Green-White-Orange palette aligned with Forestry safety standards.
+2026-03-04;MARKETING,LOGIC;Calibration of the Logical Anchor;Captured "Charged Cube" hero shot. Green-White-Orange palette aligned with Forestry safety standards.
 2026-03-03;BME280/ESP32,TUYA;BME280/ESP32 alive, struggle with Tuya developer portal;Enjoyed the simplicity and logic of BMP280/ESP32. Tuya developer portal is non-intuitive and slow.
