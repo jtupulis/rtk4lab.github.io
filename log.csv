@@ -1,4 +1,6 @@
 Date;Tags;Title;Content
+2026-11-06;AI,RTK4LOGISTICS,MARKETING;Adapter board v3 routing, Latvian Startup Awards;Found another Gemini induced glitch > re-routed adapter board. Drafted a LinkedIn profile update with Claude and met people at the Latvian Startup Awards 2026.
+2026-11-05;AI,DEVELOPMENT;Morning routine scripts;Worked on the scripts behind the morning routine: the reminders export and the Lab Log gap check.
 2026-11-04;AI,RTK4LOGISTICS,ACCOUNTING;Rover main board, accounting review;Worked on the rtk4logistics rover prototype hardware: main and power board specs, a first main board schematic and a BOM. Moved accounting from Gemini to Claude: reviewed the books and the Gemini-era history and wrote a month-close routine. Also automated the Lab Log gap check.
 2026-11-03;AI,DEVELOPMENT,CNC,MARKETING;DFM checklist, PCB milling routine, Virtual Ground card;Wrote a DFM checklist to be tried on couple projects first and updated for all later.  Fixed the PCB milling routine. Published card 04 on the website.
 2026-11-02;AI,STRATEGY,RTK4LOGISTICS;Move Gemini>Claude, Adapter board test, PCB milling routine;Worked on business development and sales strategy, created Claude agents for that. Tested rtk4logistics adapter board - it will do.
