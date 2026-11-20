@@ -1,4 +1,15 @@
 Date;Tags;Title;Content
+2026-11-19;RTK4LOGISTICS;Adapter v3 soldered, moving-base setup;Soldered the v3 adapter board with two ZED-F9P modules and checked it for shorts. Backed up the configs of both rtk4forest receivers, reset them to factory defaults and wrote the moving-base setup procedure.
+2026-11-18;SALES,MARKETING;EEN partnering database checked;Checked what a profile in the Enterprise Europe Network partnering database involves: free, active for 12 months, filed through a Latvian network partner Techcenter, no public data on results. Drafted a request for a business offer profile and alerts on R&D requests.
+2026-11-17;MARKETING,SALES;Business cards ordered, weekly sales session;Ordered the rtk4 business cards. Weekly sales session: updated the pipeline after follow-ups with several contacts.
+2026-11-16;ACCOUNTING,TAX;October VAT return filed;Booked October and filed the VAT return.
+2026-11-15;MARKETING;Gemini to Claude Linkedin post;Posted on LinkedIn about moving rtk4 work from Gemini to Claude.
+2026-11-13;ACCOUNTING,TAX;October month closing, accounting routines update;Worked on accounting routines update with Fable using October month close as practical use-case.
+2026-11-12;MARKETING;rtk4 business cards, event pitch;Designed print files for the rtk4 business cards. Started a short pitch for an event on 25 November.
+2026-11-11;RTK4LOGISTICS;rtk4logistics financial proposal, strategy and plan;Worked on an rtk4logistics financial proposal for a potential customer. Reviewed the rtk4logistics strategy summary and plan.
+2026-11-10;AI,RTK4LOGISTICS,STRATEGY,MARKETING;Sales pipeline, rtk4logistics summary;Got Fable 5.2 allowance included in my Pro plan as a promotion for a week, planned how to spend it: rtk4 strategy update, rtk4logistics planning, accounting review and routines development, wellbeing framework update. Set up a sales pipeline: .md files with Obsidian on top. Updated rtk4logistics strategy summary and plan.
+2026-11-09;SALES,MARKETING,LAB FUN;Weekly sales brief, brand guide, first use of the new PSU;Worked on the weekly sales brief, some follow-ups and the rtk4 brand guide with Claude. Used Siglent SPD3303X for powering up an old and broken Mac. Troubleshooting was successful, Mac is alive now with a workaround, ordered the broken parts.
+2026-11-08;AI,RTK4LOGISTICS,CNC;Adapter v3 milled, read-only access to the CNC PC;Milled the adapter v3 board double-sided with the new routine. Built a sandboxed read-only access kit for the CNC PC with Claude.
 2026-11-07;AI,MARKETING;rtk4 LinkedIn company page;Worked on the rtk4 LinkedIn company page with Claude. Page live.
 2026-11-06;AI,RTK4LOGISTICS,MARKETING;Adapter board v3 routing, Latvian Startup Awards;Found another Gemini induced glitch > re-routed adapter board. Drafted a LinkedIn profile update with Claude and met people at the Latvian Startup Awards 2026.
 2026-11-05;AI,DEVELOPMENT;Morning routine scripts;Worked on the scripts behind the morning routine: the reminders export and the Lab Log gap check.
